@@ -1,0 +1,31 @@
+PODS:
+  - KingBaseCategory/NSObject+ (0.3.6)
+  - KingBaseCategory/UIFont+ (0.3.6):
+    - KingBaseCategory/NSObject+
+  - KingBaseCategory/UIImage+ (0.3.6)
+  - Masonry (1.0.2)
+  - MHPopupView (0.0.2):
+    - KingBaseCategory/UIFont+
+    - KingBaseCategory/UIImage+
+    - Masonry (~> 1.0.2)
+    - MHPopupView/MHPopupView (= 0.0.2)
+  - MHPopupView/MHPopupView (0.0.2):
+    - KingBaseCategory/UIFont+
+    - KingBaseCategory/UIImage+
+    - Masonry (~> 1.0.2)
+
+DEPENDENCIES:
+  - MHPopupView (from `../`)
+
+EXTERNAL SOURCES:
+  MHPopupView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KingBaseCategory: 740be21ede05872861c019979f0854ffac5cae8c
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MHPopupView: cbbdf58c111aa6b394fe6900b120b2321b144a1f
+
+PODFILE CHECKSUM: 557933879e0e63d59662cf5b5bd3fda5651d0c25
+
+COCOAPODS: 1.1.1
