@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MHPopupView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "MHPopupView."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Classes", "Classes/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
-  s.dependency 'Masonry', '~> 1.0.2'
+  s.dependency 'Masonry'
   s.dependency "KingBaseCategory/UIFont+"
   s.dependency "KingBaseCategory/UIImage+"
 
