@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MHPopProgressView.h"
+#import "UIViewController+Sheet.h"
 @interface ViewController ()
 
 @end
@@ -16,20 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[MHPopProgressView sharedInstance]showWithConfig:^MHPopProgressViewConfig *(MHPopProgressViewConfig *config) {
-        return config;
-    }];
-    [self show];
+    
     
 }
--(void)show{
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        for (int progress = 0; progress<=100; progress++) {
-            [MHPopProgressView sharedInstance].MHPopProgressViewProgress(progress/100.0);
-            sleep;
-        }
-    });
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self sheetWithItems:@[@"1",@"2",@"3"] andHandler:^(NSInteger index) {
+        
+    } andCompletionBlock:^(UIView *view, BOOL isFinish) {
+        
+    } andHiddenBlock:^(UIView *view, BOOL isFinish) {
+        
+    }];
 }
+
 
 
 

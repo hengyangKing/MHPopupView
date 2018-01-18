@@ -1,6 +1,6 @@
 {
   "name": "MHPopupView",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "summary": "MHPopupView.",
   "description": "a popview for the musichome",
   "homepage": "https://github.com/hengyangKing/MHPopupView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hengyangKing/MHPopupView.git",
-    "tag": "0.0.2"
+    "tag": "0.0.5"
   },
   "source_files": [
     "Classes",
@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "Masonry": [
-      "~> 1.0.2"
+
     ],
     "KingBaseCategory/UIFont+": [
 
